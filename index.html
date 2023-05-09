@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Alarm-Clock</title>
+    <meta
+      name="description"
+      content="Alarm Clock test project for Coding Ninja"
+    />
+    <meta name="keywords" content="HTML, CSS, Vanilla JavaScript" />
+    <meta name="author" content="Vishal Kumar (https://github.com/am-vishal)" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="https://images.unsplash.com/photo-1550534791-2677533605ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWxhcm0lMjBjbG9ja3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="clock" />
+      <h1>00:00:00 PM</h1>
+      <div class="content">
+        <div class="column">
+          <select>
+            <option value="Hour" selected disabled hidden>Hour</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="Minute" selected disabled hidden>Minute</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="AM/PM" selected disabled hidden>AM/PM</option>
+          </select>
+        </div>
+      </div>
+      <button>Set Alarm</button>
+      <span class="upcoming-alarm"></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
