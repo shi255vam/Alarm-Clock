@@ -19,7 +19,7 @@ body,
 body {
   padding: 0 10px;
   min-height: 100vh;
-  background: #d40e0eee;
+  background: rgb(62, 227, 62);
 }
 
 /* The styles above set the body and .wrapper and .content elements to be flex containers and align their child elements in the center.
@@ -28,7 +28,7 @@ body {
 .wrapper {
   width: 440px;
   padding: 30px 30px 38px;
-  background: #a1dd29d5;
+  background: #f83f3fee;
   border-radius: 10px;
   flex-direction: column;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
