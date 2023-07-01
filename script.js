@@ -14,7 +14,7 @@ const currentTime = document.querySelector("h1"),
 // "setAlarmBtn" selects the button used to set and clear the alarm.
 
 let alarmTime, isAlarmSet,
-    ringtone = new Audio("C:\Users\shivam\OneDrive\Desktop\New folder\files_ringtone.mp3");
+    ringtone = new Audio("Crow Itachi.mp3");
 
 // The variables above are used to track the alarm time, if an alarm is set, and the ringtone.
 
